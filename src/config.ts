@@ -11,18 +11,18 @@ const config = {
 
   saleToken: {
     [bscTestnet.id]: {
-      address: "0x17284f00868b0Ea70269776cdD68886e5cA4a0A9", // token address
-      symbol: "ARTI", // token symbol
-      name: "ArtiCoin", // token name
-      image: "/img/tokens/logo.svg", // token image
-      decimals: 18, // token decimals
+      address: "0x17284f00868b0Ea70269776cdD68886e5cA4a0A9", // your token address
+      symbol: "ARTI", // your token symbol
+      name: "ArtiCoin", // your token name
+      image: "/img/tokens/logo.svg", // your token image
+      decimals: 18, // your token decimals
     },
     [bsc.id]: {
-      address: "0xab79e9b07c52c10898806190f3e89acd300ea972", // token address
-      symbol: "BCC", // token symbol
-      name: "BCC", // token name
-      image: "/img/tokens/logo.svg", // token image
-      decimals: 18, // token decimals
+      address: "0xab79e9b07c52c10898806190f3e89acd300ea972", // your token address
+      symbol: "BCC", // your token symbol
+      name: "BCC", // your token name
+      image: "/img/tokens/logo.svg", // your token image
+      decimals: 18, // your token decimals
     },
     [mainnet.id]: {
       address: "0x9cd481f64511809f65e89480d0e2d7062709e311", // token address
@@ -39,7 +39,7 @@ const config = {
     [mainnet.id]: "USDT",
   } as { [key: number]: string },
 
-  extraSoldAmount: 15_929_321,
+  extraSoldAmount: 15_929_321, // How much additionally you want to show as sold?
 
   whitelistedTokens: {
     [bscTestnet.id]: [
