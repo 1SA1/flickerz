@@ -1,50 +1,67 @@
 import { ReactComponent as TwitterIcon } from "../../assets/svg/twitter.svg";
 import { ReactComponent as TelegramIcon } from "../../assets/svg/telegram.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/svg/linkedin.svg";
-import Thomas from "../../assets/img/thomas.png";
-import Yan from "../../assets/img/yan.png";
-import Richard from "../../assets/img/richard.png";
-import Ahmed from "../../assets/img/ahmed.png";
+import Michelle from "../../assets/img/CEO_Michelle.png";
+import Mark from "../../assets/img/Co-Founder_Mark.png";
+import Ben from "../../assets/img/Co-Founder_Ben.png";
+import Travis from "../../assets/img/CTO_Travis.png";
+import Ray from "../../assets/img/CMO_Ray.png";
 import FadeUp from "../animations/FadeUp";
 import FadeLeft from "../animations/FadeLeft";
 
 const TeamSection = () => {
   const team = [
     {
-      name: "User 1",
-      role: "CEO, Founder",
-      img: Thomas,
+      name: "Steve",
+      role: "Founder & Investor",
+      img: Michelle,
       linkedin: undefined,
       twitter: undefined,
       telegram: "https://t.me/",
     },
     {
-      name: "User 2",
-      role: "CEO, Founder",
-      img: Yan,
+      name: "Ben",
+      role: "Co-Founder",
+      img: Ben,
       linkedin: undefined,
       twitter: undefined,
       telegram: "https://t.me/",
     },
     {
-      name: "User 3",
-      role: "Lead UI/UX Designer",
-      img: Richard,
+      name: "Mark",
+      role: "Co-Founder",
+      img: Mark,
       linkedin: undefined,
       twitter: undefined,
       telegram: "https://t.me",
     },
     {
-      name: "User 4",
-      role: "Full Stack Developer",
-      img: Ahmed,
+      name: "Michelle",
+      role: "CEO",
+      img: Michelle,
+      linkedin: undefined,
+      twitter: undefined,
+      telegram: "https://t.me/",
+    },
+    {
+      name: "Travis",
+      role: "CTO",
+      img: Travis,
+      linkedin: undefined,
+      twitter: undefined,
+      telegram: "https://t.me/",
+    },
+    {
+      name: "Ray",
+      role: "CMO",
+      img: Ray,
       linkedin: undefined,
       twitter: undefined,
       telegram: "https://t.me/",
     },
   ];
   return (
-    <section id="team" className="pb-12 lg:pb-24">
+    <section id="main-site" className="pb-12 lg:pb-24">
       <div className="container px-4 lg:px-0">
         <FadeLeft>
           <h2 className="text-gradient mb-6 text-center text-5xl leading-normal lg:mb-12 lg:text-left">

@@ -43,8 +43,8 @@ nav {
 
 body {
   @apply flex min-h-screen flex-col text-white;
-  background-color: #0f0e13;
-  background-image: url("/img/bg.png");
+  background-color: #000;
+  /* background-image: url("/img/bg.png"); */
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;

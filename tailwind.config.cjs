@@ -17,9 +17,23 @@ module.exports = {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: "#76FF9C",
-        secondary: "#191F24",
-        dark: "#1a2025",
+        primary: "#e42d25",
+        secondary: "#000",
+        dark: "#191919",
+      },
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+        marquee2: 'marquee2 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
       },
     },
   },

@@ -21,21 +21,21 @@ const StatsSection = () => {
   ];
   return (
     <section>
-      <div className="container">
-        <div className="h-px bg-gradient-to-r from-white/0 to-white/20" />
-        <div className="py-12">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
+      <div className="bg-gradient-to-b from-[#0f0f0f80] to-[#22222280]">
+        <div className="h-px " />
+        <div className=" container py-12">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-4 ">
             {stats.map((stat, i) => (
-              <FadeUp delay={i * 0.7} key={i} className="text-center">
+              <FadeUp delay={i * 0.7} key={i} className="text-center bg-[#1b1b1b] rounded-lg py-6">
                 <h2 className="text-gradient mb-6 text-4xl font-bold text-white">
                   {stat.value}
                 </h2>
-                <h4 className="text-xl font-medium text-white">{stat.title}</h4>
+                <h4 className="text-sm font-medium text-white">{stat.title}</h4>
               </FadeUp>
             ))}
           </div>
         </div>
-        <div className="h-px bg-gradient-to-r from-white/20 to-white/0" />
+       
       </div>
     </section>
   );

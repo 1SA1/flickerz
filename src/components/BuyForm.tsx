@@ -177,9 +177,15 @@ const BuyForm = () => {
     // if (!isPresaleStarted) return;
     fetchIntialData();
   }, []);
-
+  const borderStyle = {
+  border: '2px solid transparent', // Set a transparent border
+  borderImage: 'linear-gradient(to bottom right, rgba(255, 63, 63, 1), rgba(157, 97, 255, 1), rgba(49, 208, 160, 1), rgba(255, 255, 255, 1)) 1', // Apply linear gradient as border image
+};
+ 
+  
   return (
-    <div className="relative mx-auto w-full max-w-lg rounded-3xl bg-[#1a2025]/70 backdrop-blur-xl">
+    
+    <div style={borderStyle}  className="relative mx-auto w-full max-w-lg rounded-2 bg-secondary  backdrop-blur-xl">
       {loading && <Loading />}
 
       {!loading && (

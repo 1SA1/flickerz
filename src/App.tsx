@@ -3,7 +3,7 @@ import { Web3Modal } from "@web3modal/react";
 
 import { ReferralModalTarget } from "./components/ReferralModal";
 import HeaderSection from "./components/sections/HeaderSection";
-import LogosSection from "./components/sections/LogosSection";
+// import LogosSection from "./components/sections/LogosSection";
 import Navbar from "./components/Navbar";
 import HowToBuySection from "./components/sections/HowToBuySection";
 import RoadmapSection from "./components/sections/RoadmapSection";
@@ -68,12 +68,12 @@ function App() {
       <Navbar />
       <main id="main" className="flex flex-col">
         <HeaderSection />
-        <LogosSection />
+        {/* <LogosSection /> */}
         <HowToBuySection />
         <RoadmapSection />
         <TokenomicsSection />
         <StatsSection />
-        <TeamSection />
+        {/* <TeamSection /> */}
         <Footer />
       </main>
       <SelectTokenModalTarget />

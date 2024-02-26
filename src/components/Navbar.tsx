@@ -1,7 +1,7 @@
 // import icons
-import { ReactComponent as Logo } from "../assets/svg/logo.svg";
+import Logo  from "../assets/img/logo.png";
 import { ReactComponent as WalletIcon } from "../assets/svg/wallet.svg";
-import { ReactComponent as BNBIcon } from "../assets/svg/eth.svg";
+import { ReactComponent as BNBIcon } from "../assets/svg/bnb-1.svg";
 import { ReactComponent as DownArrowIcon } from "../assets/svg/down-arrow.svg";
 
 import config from "../config";
@@ -14,17 +14,17 @@ const navigationLinks = [
     href: "#how-to-buy",
   },
   {
+    name: "Main Site",
+    href: "#main-site",
+  },
+  {
     name: "Roadmap",
     href: "#roadmap",
   },
   {
     name: "Tokenomics",
     href: "#tokenomics",
-  },
-  {
-    name: "Team",
-    href: "#team",
-  },
+  }
 ];
 
 const Navbar = () => {
@@ -32,9 +32,10 @@ const Navbar = () => {
   const { address, isConnected } = useAccount();
   const { chain } = useNetwork();
   return (
-    <div className="container px-4 lg:px-0">
-      <div className="flex items-center justify-between py-6">
-        <Logo className="h-12 lg:h-16" />
+    <div className="px-4 lg:px-0 bg-dark ">
+      <div className="flex items-center justify-between px-6 py-6">
+      <img src={Logo} alt="Logo" className="h-12 lg:h-16" />
+        {/* <Logo className="h-12 lg:h-16" /> */}
         <div className="flex items-center gap-6">
           <nav className="hidden lg:block">
             <ul className="flex gap-6">
@@ -48,21 +49,13 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <li>
-                <a
-                  href="https://t.me/ArtiCoinio"
-                  className="animate-pulse text-lg font-medium text-primary transition-opacity duration-200 hover:opacity-75"
-                  target="_blank"
-                >
-                  Airdrop
-                </a>
-              </li>
+             
             </ul>
           </nav>
           <div className="flex items-center gap-2">
             <button
               onClick={() => open({ route: "SelectNetwork" })}
-              className="hidden items-center gap-2 rounded-full border border-white/10 bg-transparent py-4 px-4 font-semibold lg:flex"
+              className="hidden items-center gap-2 rounded-lg border border-white/10 bg-transparent py-4 px-4 font-semibold lg:flex"
             >
               <BNBIcon className="h-6 w-6" />
               <span>{chain?.name || config.chains[0].name}</span>
@@ -71,7 +64,7 @@ const Navbar = () => {
 
             <button
               onClick={() => open()}
-              className="flex items-center gap-2 rounded-full bg-primary py-2 px-4 text-sm font-semibold text-black transition-opacity duration-200 hover:opacity-75 lg:py-4 lg:text-base"
+              className="flex items-center gap-2 rounded-lg bg-primary py-2 px-4 text-sm font-semibold  transition-opacity duration-200 hover:opacity-75 lg:py-4 lg:text-base"
             >
               {isConnected ? (
                 <span className="flex items-center justify-center gap-2">
