@@ -78,7 +78,7 @@ const HowToBuySection = () => {
 <img
             src={Ecosystem}
             alt="Integration"
-            className="mx-auto w-full max-w-3xl mb-6"
+            className="mx-auto w-full py-6 mb-6"
           />
 
       <div className="container flex flex-col items-center gap-8 px-4 lg:flex-row lg:gap-16 lg:px-0">
@@ -107,7 +107,7 @@ const HowToBuySection = () => {
             Buy with Card
           </button>
         </FadeLeft>
-        <FadeRight className="w-full lg:w-1/2 mt-14  border rounded-lg   ">
+        <FadeRight className="w-full lg:w-1/2 mt-14  border rounded-lg"  >
         <div className="mx-10 mb-10 ">
           <img src={HowToBuy}   alt="HowToBuy"
             className=" mx-auto w-52 mt-6  mb-6"/>

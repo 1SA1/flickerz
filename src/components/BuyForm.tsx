@@ -177,26 +177,22 @@ const BuyForm = () => {
     // if (!isPresaleStarted) return;
     fetchIntialData();
   }, []);
-  const borderStyle = {
-  border: '2px solid transparent', // Set a transparent border
-  borderImage: 'linear-gradient(to bottom right, rgba(255, 63, 63, 1), rgba(157, 97, 255, 1), rgba(49, 208, 160, 1), rgba(255, 255, 255, 1)) 1', // Apply linear gradient as border image
-};
+
  
   
   return (
     
-    <div style={borderStyle}  className="relative mx-auto w-full max-w-lg rounded-2 bg-secondary  backdrop-blur-xl">
+    <div  className="relative   rounded border-2 border-white/10 bg-gradient-to-t from-black/20 to-transparent  mx-auto w-full max-w-lg  bg-secondary  backdrop-blur-xl" style={{ border: "2px solid transparent",  borderImageSource: "linear-gradient(181.64deg, #FF3F3F 1.5%, #9D61FF 32.09%, #31D0A0 69.09%, #FFFFFF 96.8%)", borderImageSlice: "1", borderImageWidth: "2" }}>
       {loading && <Loading />}
 
       {!loading && (
-        <div className="absolute -top-8 w-full">
-          <p className="mx-10 rounded-2xl border-2 border-white/10 bg-gradient-to-t from-black/20 to-transparent py-4 text-center text-2xl backdrop-blur-3xl">
-            STAGE <span className="font-semibold text-green-500">2</span> (10%
-            Bonus)
+        <div className="absolute -top-16 w-full">
+          <p className=" rounded-tl-2xl rounded-tr-2xl border-2  border-white/10 bg-gradient-to-t from-black/20 to-transparent py-4 text-center text-2xl  font-bold">
+            STAGE 2 <span className="rounded-2xl bg-white  text-red-500 px-2 py-1  font-semibold">10% Bonus</span>
           </p>
         </div>
       )}
-      <form onSubmit={submit} className="mb-6 flex flex-col gap-6 px-5 pt-16">
+      <form onSubmit={submit} className="mb-6 flex flex-col gap-6 px-5 pt-16 ">
         <div
           className={`flex gap-4 rounded-xl border-2 border-transparent bg-[#232c3a]/50 py-2.5 pr-2.5 pl-6 ring-4 ring-transparent focus-within:border-primary/50 focus-within:ring-primary/20 ${
             insufficientBalance
@@ -272,7 +268,7 @@ const BuyForm = () => {
         <div className="flex flex-col gap-2">
           <div className="flex items-end justify-between">
             <span>
-              <span className="text-2xl">
+              <span className="text-2xl font-extrabold">
                 $
                 {formatNumber(
                   totalTokensSold * tokenPrice + config.extraSoldAmount
@@ -283,10 +279,10 @@ const BuyForm = () => {
             </span>
             <span>{soldPercentage}%</span>
           </div>
-          <div className="progress">
+          <div className="progress ">
             <div
-              className="progress-bar"
-              style={{ width: `${soldPercentage}%` }}
+              className="progress-bar "
+              style={{ width: `${soldPercentage}%`, background: "linear-gradient(90deg, #95FF7B 0%, #EE312F 100%)" }}
             ></div>
           </div>
         </div>

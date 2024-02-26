@@ -70,7 +70,7 @@ const HeaderSection = () => {
         </FadeRight>
 
       </div>
-      <div style={{  height: "139.34px", gap: "90px" }} className="relative flex my-6 overflow-x-hidden bg-dark">
+      <div  className="relative flex my-6  overflow-x-hidden bg-dark">
   <div className="py-12 animate-marquee whitespace-nowrap">
     <span className="mx-4 inline-block"><img src={BloomBerg} alt="BloomBerg" className="h-7 w-32" /></span>
     <span className="mx-4 inline-block"><img src={MarketWatch} alt="MarketWatch" className="h-7 w-32" /></span>
@@ -81,9 +81,9 @@ const HeaderSection = () => {
     <span className="mx-4 inline-block"><img src={Benzinga} alt="Benzinga" className="h-7 w-32" /></span>
     <span className="mx-4 inline-block"><img src={YahooFinance} alt="YahooFinance" className="h-7 w-32" /></span>
   </div>
-  <div className="absolute top-0  py-12 animate-marquee2 whitespace-nowrap">
-    <span className="mx-4 inline-block"><img src={BloomBerg} alt="BloomBerg" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={MarketWatch} alt="MarketWatch" className="h-7 w-32" /></span>
+  <div className="absolute top-0  py-12 animate-marquee2 whitespace-nowrap" >
+    <span className="mx-28 inline-block"><img src={BloomBerg} alt="BloomBerg" className="h-7 w-32" /></span>
+    <span className="inline-block"><img src={MarketWatch} alt="MarketWatch" className="h-7 w-32" /></span>
     <span className="mx-4 inline-block"><img src={DigitalJournal} alt="DigitalJournal" className="h-7 w-32" /></span>
     <span className="mx-4 inline-block"><img src={NewSbtc} alt="NewSbtc" className="h-7 w-32" /></span>
     <span className="mx-4 inline-block"><img src={CryptoDaily} alt="CryptoDaily" className="h-7 w-32" /></span>
@@ -93,7 +93,7 @@ const HeaderSection = () => {
   </div>
 </div>
 
-      <div className="container flex flex-col items-center gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
+      <div className="container flex flex-col items-center py-6 gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
         <FadeLeft className="w-full lg:w-1/2">
 
           <h2 className="mb-6 text-center text-primary drop-shadow-lg text-3xl font-bold leading-normal lg:text-left lg:text-5xl">ENJOY-AND-EARN</h2>
@@ -114,7 +114,7 @@ const HeaderSection = () => {
 
       </div>
 
-      <div className="container flex flex-col items-center gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
+      <div className="container flex flex-col items-center gap-16 px-4 py-6 lg:flex-row lg:gap-4 lg:px-0">
         <FadeLeft className="relative flex w-full justify-center lg:w-1/2  ">
           <img
             src={Works}
