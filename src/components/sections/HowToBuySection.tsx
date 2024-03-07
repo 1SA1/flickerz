@@ -59,7 +59,7 @@ const HowToBuySection = () => {
   ];
   return (
     
-    <section id="how-to-buy" className="container py-12 lg:py-24">
+    <section  className="container py-12 lg:py-24">
        <h2 className="mb-6 text-center drop-shadow-lg text-3xl text-primary font-bold leading-normal lg:text-left lg:text-5xl">Ecosystem</h2>
      <div className="mb-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
   {steps1.map((step, index) => (
@@ -81,7 +81,7 @@ const HowToBuySection = () => {
             className="mx-auto w-full py-6 mb-6"
           />
 
-      <div className="container flex flex-col items-center gap-8 px-4 lg:flex-row lg:gap-16 lg:px-0">
+      <div  id="how-to-buy" className="container flex flex-col items-center gap-8 px-4 lg:flex-row lg:gap-16 lg:px-0">
         <FadeLeft className="flex w-full flex-col gap-6 lg:w-1/2">
         <h2 className="mb-6 text-center drop-shadow-lg text-3xl text-primary font-bold leading-normal lg:text-left lg:text-5xl">
             How to buy

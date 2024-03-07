@@ -2,6 +2,8 @@ import { ReactComponent as ArrowTrunDown } from "../assets/svg/arrow-turn-down.s
 // import logo
 import { ReactComponent as Logo } from "../assets/svg/logo.svg";
 import { ReactComponent as TwitterIcon } from "../assets/svg/twitter.svg";
+import { ReactComponent as FacebookIcon } from "../assets/svg/fb.svg";
+import { ReactComponent as InstaIcon } from "../assets/svg/insa.svg";
 import { ReactComponent as TelegramIcon } from "../assets/svg/telegram.svg";
 import { ReactComponent as MediumIcon } from "../assets/svg/medium.svg";
 import { ReactComponent as FooterLogo } from "../assets/svg/footer_logo.svg";
@@ -44,20 +46,26 @@ const footerLinks = [
 
 const socialLinks = [
   {
+    name: "Telegram",
+    href: "https://t.me/flickrzpm",
+    icon: <TelegramIcon className="h-6 w-6" />,
+  },
+  {
     name: "Twitter",
     href: "https://twitter.com/FlickrzPM",
     icon: <TwitterIcon className="h-6 w-6" />,
   },
+ 
   {
-    name: "Telegram",
-    href: "http://t.me/flickrzpm",
-    icon: <TelegramIcon className="h-6 w-6" />,
+    name: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61551644138718&is_tour_dismissed=true",
+    icon: <FacebookIcon className="h-6 w-6" />,
   },
-  // {
-  //   name: "Google",
-  //   href: "#",
-  //   icon: <MediumIcon className="h-6 w-6" />,
-  // },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/flickrzpm/",
+    icon: <InstaIcon className="h-6 w-6" />,
+  },
 ];
 const Footer = () => {
   return (

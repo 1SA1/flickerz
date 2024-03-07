@@ -182,13 +182,13 @@ const BuyForm = () => {
   
   return (
     
-    <div  className="relative   rounded border-2 border-white/10 bg-gradient-to-t from-black/20 to-transparent  mx-auto w-full max-w-lg  bg-secondary  backdrop-blur-xl" style={{ border: "2px solid transparent",  borderImageSource: "linear-gradient(181.64deg, #FF3F3F 1.5%, #9D61FF 32.09%, #31D0A0 69.09%, #FFFFFF 96.8%)", borderImageSlice: "1", borderImageWidth: "2" }}>
+    <div  className="relative   rounded border-2 border-white/10 bg-gradient-to-t from-black/20 to-transparent  mx-auto w-full max-w-lg  bg-secondary  backdrop-blur-xl" style={{ border: "1px solid transparent",  borderImageSource: "linear-gradient(181.64deg, #FF3F3F 1.5%, #9D61FF 32.09%, #31D0A0 69.09%, #FFFFFF 96.8%)", borderImageSlice: "1", borderImageWidth: "2" }}>
       {loading && <Loading />}
 
       {!loading && (
         <div className="absolute -top-16 w-full">
           <p className=" rounded-tl-2xl rounded-tr-2xl border-2  border-white/10 bg-gradient-to-t from-black/20 to-transparent py-4 text-center text-2xl  font-bold">
-            STAGE 2 <span className="rounded-2xl bg-white  text-red-500 px-2 py-1  font-semibold">10% Bonus</span>
+            STAGE 2 <span className="rounded-full bg-white  text-red-500 px-2 py-1  font-semibold">10% Bonus</span>
           </p>
         </div>
       )}
@@ -229,7 +229,7 @@ const BuyForm = () => {
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#232c3a]/50 text-3xl font-bold">
             =
           </span>
-          <span className="text-white/50">1 USDT = 142 ARTI</span>
+          <span className="text-white/50">1 USDT = 142 FLKZ</span>
         </div>
         <div className="flex gap-4 rounded-xl border-2 border-transparent bg-[#232c3a]/50 py-2.5 pr-2.5 pl-6 ring-4 ring-transparent focus-within:border-primary/50 focus-within:ring-primary/20">
           <div className="flex flex-1 flex-col gap-1">

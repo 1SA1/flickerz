@@ -27,24 +27,24 @@ import YahooFinance from "../../assets/svg/YahooFinanace.svg"
 
 const HeaderSection = () => {
   return (
-    <section className="py-12 lg:py-24">
-      <div className="container flex flex-col items-center gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
+    <section className="py-12 lg:py-24 text">
+      <div className="container flex flex-col items-center text gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
         <FadeLeft className="w-full lg:w-1/2">
-          <h2 className="mb-6 text-center drop-shadow-lg text-3xl font-bold leading-normal lg:text-left lg:text-5xl font-Outfit text-45 font-extrabold leading-58 tracking-normal text-left">
+          <h2 className="mb-6 text-left drop-shadow-lg text-3xl font-bold leading-normal lg:text-left lg:text-5xl font-Outfit text-45 font-extrabold leading-58 tracking-normal text-left">
             "Enjoy and Earn"<br />
             <span className=" bg-clip-text ">The Future of Digital</span> Contents
           </h2>
 
 
 
-          <p className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">
+          <p className="mb-8 text-left font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">
           We're thrilled to introduce the Flickrz "Enjoy and Earn" (E&E) Ecosystem, redefining how users engage with digital media. This concept revolutionizes user engagement by offering rewards for enjoying diverse digital content. At Flickrz, we believe in rewarding enjoyment, eliminating the need for users to go the extra mile for incentives.
           </p>
           <div className="flex items-center mb-10 justify-center gap-16 lg:justify-start mt-4">
-      <a href="YOUR_INSTAGRAM_URL" target="_blank"> <FontAwesomeIcon icon={faFacebook} /></a>
-      <a href="YOUR_TWITTER_URL" target="_blank"> <FontAwesomeIcon icon={faXTwitter} /></a>
-      <a href="YOUR_FACEBOOK_URL" target="_blank">  <FontAwesomeIcon icon={faInstagram} /></a>
-      <a href="YOUR_TELEGRAM_URL" target="_blank">    <FontAwesomeIcon icon={faTelegramPlane} /></a>
+      <a href="https://www.facebook.com/profile.php?id=61551644138718&is_tour_dismissed=true" target="_blank"> <FontAwesomeIcon icon={faFacebook} /></a>
+      <a href="https://twitter.com/FlickrzPM" target="_blank"> <FontAwesomeIcon icon={faXTwitter} /></a>
+      <a href="https://www.facebook.com/profile.php?id=61551644138718&is_tour_dismissed=true" target="_blank">  <FontAwesomeIcon icon={faInstagram} /></a>
+      <a href="https://t.me/flickrzpm" target="_blank">    <FontAwesomeIcon icon={faTelegramPlane} /></a>
     </div>
           <div className="flex flex-wrap  items-center justify-center gap-4 lg:justify-start">
             <a
@@ -72,47 +72,58 @@ const HeaderSection = () => {
       </div>
       <div  className="relative flex my-6  overflow-x-hidden bg-dark">
   <div className="py-12 animate-marquee whitespace-nowrap">
-    <span className="mx-4 inline-block"><img src={BloomBerg} alt="BloomBerg" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={MarketWatch} alt="MarketWatch" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={DigitalJournal} alt="DigitalJournal" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={NewSbtc} alt="NewSbtc" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={CryptoDaily} alt="CryptoDaily" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={ApLogo} alt="ApLogo" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={Benzinga} alt="Benzinga" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={YahooFinance} alt="YahooFinance" className="h-7 w-32" /></span>
+    <span className="mx-8 inline-block"><img src={BloomBerg} alt="BloomBerg" /></span>
+    <span className="mx-8 inline-block"><img src={MarketWatch} alt="MarketWatch"  /></span>
+    <span className="mx-8 inline-block"><img src={DigitalJournal} alt="DigitalJournal"  /></span>
+    <span className="mx-8 inline-block"><img src={NewSbtc} alt="NewSbtc"  /></span>
+    <span className="mx-8 inline-block"><img src={CryptoDaily} alt="CryptoDaily"  /></span>
+    <span className="mx-8 inline-block"><img src={ApLogo} alt="ApLogo" /></span>
+    <span className="mx-8 inline-block"><img src={Benzinga} alt="Benzinga"  /></span>
+    <span className="mx-8 inline-block"><img src={YahooFinance} alt="YahooFinance" /></span>
   </div>
   <div className="absolute top-0  py-12 animate-marquee2 whitespace-nowrap" >
-    <span className="mx-28 inline-block"><img src={BloomBerg} alt="BloomBerg" className="h-7 w-32" /></span>
-    <span className="inline-block"><img src={MarketWatch} alt="MarketWatch" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={DigitalJournal} alt="DigitalJournal" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={NewSbtc} alt="NewSbtc" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={CryptoDaily} alt="CryptoDaily" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={ApLogo} alt="ApLogo" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={Benzinga} alt="Benzinga" className="h-7 w-32" /></span>
-    <span className="mx-4 inline-block"><img src={YahooFinance} alt="YahooFinance" className="h-7 w-32" /></span>
+    <span className="mx-8 inline-block"><img src={BloomBerg} alt="BloomBerg"  /></span>
+    <span className="mx-8 inline-block"><img src={MarketWatch} alt="MarketWatch"  /></span>
+    <span className="mx-8 inline-block"><img src={DigitalJournal} alt="DigitalJournal"  /></span>
+    <span className="mx-8 inline-block"><img src={NewSbtc} alt="NewSbtc"  /></span>
+    <span className="mx-8 inline-block"><img src={CryptoDaily} alt="CryptoDaily"  /></span>
+    <span className="mx-8 inline-block"><img src={ApLogo} alt="ApLogo"  /></span>
+    <span className="mx-8 inline-block"><img src={Benzinga} alt="Benzinga"  /></span>
+    <span className="mx-8 inline-block"><img src={YahooFinance} alt="YahooFinance"  /></span>
   </div>
 </div>
 
-      <div className="container flex flex-col items-center py-6 gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
-        <FadeLeft className="w-full lg:w-1/2">
+<div className="container flex flex-col items-center py-6 gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
+  {/* For mobile view, render only the image */}
+  <div className="relative flex w-full justify-center lg:w-1/2 lg:hidden"> {/* Hide in desktop view */}
+    <FadeRight>
+      <img
+        src={EarnAndEnjoy}
+        alt="EarnAndEnjoy"
+        className="mx-auto w-full max-w-3xl"
+      />
+    </FadeRight>
+  </div>
 
-          <h2 className="mb-6 text-center text-primary drop-shadow-lg text-3xl font-bold leading-normal lg:text-left lg:text-5xl">ENJOY-AND-EARN</h2>
-          
+  <FadeLeft className="w-full lg:w-1/2">
+    <h2 className="mb-6 text-left text-primary drop-shadow-lg text-3xl font-bold leading-normal lg:text-left lg:text-5xl">ENJOY-AND-EARN</h2>
+    <p className="mb-8 text-left font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">
+      Flickrz introduces the "Enjoy and Earn" (E&E) ecosystem, revolutionizing digital media engagement.  <br></br>This unique approach rewards users for enjoying curated webtoons and digital content<br></br>reflecting our belief in intrinsic rewards for enjoyment.
+    </p>
+  </FadeLeft>
 
-          <p className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">
-          Flickrz introduces the "Enjoy and Earn" (E&E) ecosystem, revolutionizing digital media engagement.  <br></br>This unique approach rewards users for enjoying curated webtoons and digital content<br></br>reflecting our belief in intrinsic rewards for enjoyment.
-          </p>
-        </FadeLeft>
+  {/* For desktop view, render only the image */}
+  <div className="hidden relative flex w-full justify-center lg:w-1/2 lg:flex"> {/* Hide in mobile view */}
+    <FadeRight>
+      <img
+        src={EarnAndEnjoy}
+        alt="EarnAndEnjoy"
+        className="mx-auto w-full max-w-3xl"
+      />
+    </FadeRight>
+  </div>
+</div>
 
-        <FadeRight className="relative flex w-full justify-center lg:w-1/2">
-          <img
-            src={EarnAndEnjoy}
-            alt="EarnAndEnjoy"
-            className="mx-auto w-full max-w-3xl"
-          />
-        </FadeRight>
-
-      </div>
 
       <div className="container flex flex-col items-center gap-16 px-4 py-6 lg:flex-row lg:gap-4 lg:px-0">
         <FadeLeft className="relative flex w-full justify-center lg:w-1/2  ">
@@ -125,8 +136,8 @@ const HeaderSection = () => {
 
         <FadeRight className="w-full lg:w-1/2">
 
-          <h2 className="mb-6 text-center drop-shadow-lg text-3xl text-primary font-bold leading-normal lg:text-left lg:text-5xl">How It Works</h2>
-          <p className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">
+          <h2 className="mb-6 text-left drop-shadow-lg text-3xl text-primary font-bold leading-normal lg:text-left lg:text-5xl">How It Works</h2>
+          <p className="mb-8 text-left font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">
           Flickrz's E&E ecosystem lets users easily accumulate EP (Enjoyment Points) in their internal wallet while enjoying webtoons and digital content.<br></br>EP can be used to enhance NFT stats or exchange them for FLKZ Tokens, soon to be listed on global exchanges.<br></br>
           </p>
           
@@ -135,7 +146,7 @@ const HeaderSection = () => {
   <h3 style={{  fontSize: "20px", fontWeight: 800, lineHeight: "26px", letterSpacing: "0em", textAlign: "left" }}>UPGRADE NFT STATS</h3>
 
 </div>
-<p  className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">EPs can upgrade NFT stats. Upgraded stats improve earning performance.</p>
+<p  className="mb-8 text-left font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">EPs can upgrade NFT stats. Upgraded stats improve earning performance.</p>
 
 
 
@@ -163,52 +174,46 @@ const HeaderSection = () => {
   <h3 style={{  fontSize: "20px", fontWeight: 800, lineHeight: "26px", letterSpacing: "0em", textAlign: "left" }}>SWAP: EP → FLKZ Token</h3>
 
 </div>
-<p  className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">These EP points can then be utilized to enhance NFT (Non-Fungible Token) statistics or exchanged for our platform's proprietary FLKZ Tokens.</p>
+<p  className="mb-8 text-left font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">These EP points can then be utilized to enhance NFT (Non-Fungible Token) statistics or exchanged for our platform's proprietary FLKZ Tokens.</p>
 
         </FadeRight>
       </div>
 
       <div className="container flex flex-col items-center gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
-        <FadeLeft className="w-full lg:w-1/2">
-
-          <h2 className="mb-6 text-center drop-shadow-lg text-3xl text-primary font-bold leading-normal lg:text-left lg:text-5xl">FLKZ Tokens:</h2>
-          <h2 className="mb-6 text-center drop-shadow-lg text-3xl font-bold leading-normal lg:text-left lg:text-4xl">The Heart of Our Ecosystem</h2>
-
-          <p className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">
-          FLKZ Tokens are the backbone of the Flickrz ecosystem, built on the BEP-20 standard. Flickrz empowers users to trade and optimize their rewards seamlessly. In the near future, we're excited to announce that FLKZ Tokens will be listed on global exchanges, providing users with even more flexibility in managing their rewards.
-          </p>
-
-
-          
-
-          <div className="flex items-center">
-  <img src={HowItWorkIcon} alt="Upgrade Icon" className="h-6 w-6 mr-2" />
-  <h3 style={{  fontSize: "20px", fontWeight: 800, lineHeight: "26px", letterSpacing: "0em", textAlign: "left" }}>IN-APP CURRENCY</h3>
-
+  <FadeRight className="w-full lg:w-1/2 lg:hidden">
+    <img
+      src={Ecosystem}
+      alt="Ecosystem"
+      className="mx-auto w-full max-w-3xl"
+    />
+  </FadeRight>
+  <FadeLeft className="w-full lg:w-1/2">
+    <h2 className="mb-6 text-left drop-shadow-lg text-3xl text-primary font-bold leading-normal lg:text-left lg:text-5xl">FLKZ Tokens:</h2>
+    <h2 className="mb-6 text-left drop-shadow-lg text-3xl font-bold leading-normal lg:text-left lg:text-4xl">The Heart of Our Ecosystem</h2>
+    <p className="mb-8 text-left font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">
+      FLKZ Tokens are the backbone of the Flickrz ecosystem, built on the BEP-20 standard. Flickrz empowers users to trade and optimize their rewards seamlessly. In the near future, we're excited to announce that FLKZ Tokens will be listed on global exchanges, providing users with even more flexibility in managing their rewards.
+    </p>
+    <div className="flex items-center">
+      <img src={HowItWorkIcon} alt="Upgrade Icon" className="h-6 w-6 mr-2" />
+      <h3 style={{ fontSize: "20px", fontWeight: 800, lineHeight: "26px", letterSpacing: "0em", textAlign: "left" }}>IN-APP CURRENCY</h3>
+    </div>
+    <p className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">Buy NFT that has higher grade,<br />
+      More NFTs you have, the higher your earning ratio.</p>
+    <div className="flex items-center">
+      <img src={HowItWorkIcon2} alt="Upgrade Icon" className="h-6 w-6 mr-2" />
+      <h3 style={{ fontSize: "20px", fontWeight: 800, lineHeight: "26px", letterSpacing: "0em", textAlign: "left" }}>ON-CHAIN TRANSACTION</h3>
+    </div>
+    <p className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">FLKZ Token is transferable to external wallet addresses</p>
+  </FadeLeft>
+  <FadeRight className="relative flex w-full justify-center lg:w-1/2 hidden lg:block">
+    <img
+      src={Ecosystem}
+      alt="Ecosystem"
+      className="mx-auto w-full max-w-3xl"
+    />
+  </FadeRight>
 </div>
-<p  className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">Buy NFT that has higher grade,<br />
-More NFTs you have, the higher your earning ratio.</p>
 
-
-
-<div className="flex items-center">
-  <img src={HowItWorkIcon2} alt="Upgrade Icon" className="h-6 w-6 mr-2" />
-  <h3 style={{  fontSize: "20px", fontWeight: 800, lineHeight: "26px", letterSpacing: "0em", textAlign: "left" }}>ON-CHAIN TRANSACTION</h3>
-
-</div>
-<p  className="mb-8 text-center font-normal leading-relaxed text-white/80 lg:text-left lg:text-xl">FLKZ Token is transferable to external wallet addresses</p>
-
-        </FadeLeft>
-
-        <FadeRight className="relative flex w-full justify-center lg:w-1/2">
-          <img
-            src={Ecosystem}
-            alt="Ecosystem"
-            className="mx-auto w-full max-w-3xl"
-          />
-        </FadeRight>
-
-      </div>
 
       <div className="container flex flex-col items-center gap-16 px-4 lg:flex-row lg:gap-4 lg:px-0">
         <FadeLeft className="relative flex w-full justify-center lg:w-1/2">
